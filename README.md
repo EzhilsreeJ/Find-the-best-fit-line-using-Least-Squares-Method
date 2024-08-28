@@ -41,15 +41,13 @@ print("The m value is: ",m)
 print("The b value is: ",b)
 y_predicted=m*X+b
 print("The Y_Predicted value is: ",y_predicted)
-```
-## Output:
-![image](https://github.com/user-attachments/assets/e3c34eeb-866d-469e-91d9-2d77fe582861)
-```
+
 plt.scatter(X,Y)
 plt.plot(X,y_predicted,color='red')
 plt.show()
 ```
 ## Output:
+![image](https://github.com/user-attachments/assets/e3c34eeb-866d-469e-91d9-2d77fe582861)
 ![image](https://github.com/user-attachments/assets/280a60d6-ea8a-403f-83c9-07ef6b56d612)
 
 
